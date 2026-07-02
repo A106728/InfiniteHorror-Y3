@@ -1,0 +1,40 @@
+{
+  "world": "W1_BIOHAZARD_RACCOON_CITY",
+  "events": [
+    {
+      "id": "e_start",
+      "time": "1:00",
+      "type": "spawn",
+      "action": "tutorial_combat",
+      "evidence": "GDD W1 1:00-2:00 警察局教学丧尸"
+    },
+    {
+      "id": "e_escort",
+      "time": "2:00",
+      "type": "objective",
+      "action": "escort_charles",
+      "evidence": "GDD W1 主线护送Charles"
+    },
+    {
+      "id": "e_branch",
+      "time": "2:30",
+      "type": "branch",
+      "action": "route_choice",
+      "evidence": "GDD 岔路二选一"
+    },
+    {
+      "id": "e_sewer",
+      "time": "8:00",
+      "type": "spawn",
+      "action": "sewer_licker",
+      "evidence": "GDD 下水道舔食者"
+    },
+    {
+      "id": "e_boss",
+      "time": "10:00",
+      "type": "boss",
+      "action": "tyrant_hold",
+      "evidence": "GDD 暴君3分钟防守"
+    }
+  ]
+}
