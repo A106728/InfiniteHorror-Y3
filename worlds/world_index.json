@@ -1,0 +1,13 @@
+{
+  "version": "V1_WORLD_BINDING",
+  "evidence_chain": [
+    "GDD v3.5 5-world structure (世界1~5)"
+  ],
+  "worlds": {
+    "W1_BIOHAZARD_RACCOON_CITY": "worlds/world1_biohazard",
+    "W2_ALIEN_NOSTROMO": "worlds/world2_alien",
+    "W3_JUON_SAIEKI": "worlds/world3_juon",
+    "W4_STARSHIP_TROOPERS": "worlds/world4_starship",
+    "W5_FINAL_TRIAL": "worlds/world5_final"
+  }
+}
