@@ -1,0 +1,14 @@
+{
+  "world_id": "W1_BIOHAZARD_RACCOON_CITY",
+  "name": "世界1·生化危机·浣熊市",
+  "duration": 12,
+  "type": "survival_escalation",
+  "evidence_chain": [
+    "GDD v3.5 Section 1.1 核心概念：5个恐怖片世界结构",
+    "GDD 时间线 1:00-13:00 世界1·生化危机·浣熊市",
+    "GDD Section 8.1 场景结构：警察局→岔路→主干道→钟楼→撤离平台"
+  ],
+  "core_objective": "护送Charles博士到撤离点并坚守暴君3分钟",
+  "fail_condition": "Charles死亡或全灭",
+  "subsystems": ["objective_system", "spawn_system", "boss_system", "branch_path_system"]
+}
