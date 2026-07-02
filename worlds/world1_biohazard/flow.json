@@ -1,0 +1,11 @@
+{
+  "world": "W1_BIOHAZARD_RACCOON_CITY",
+  "timeline": [
+    {"t": "1:00", "event": "spawn_player", "evidence": "GDD 时间线 1:00 开局进入世界1"},
+    {"t": "1:00-2:00", "event": "tutorial_combat", "spawn": "zombie_wave_0", "evidence": "GDD 3.3 新手30秒教学+丧尸教学战"},
+    {"t": "2:00-5:00", "event": "escort_phase", "npc": "Charles", "evidence": "GDD 8.1 警察局→护送推进"},
+    {"t": "5:00-8:00", "event": "branch_jill_event", "type": "optional", "evidence": "GDD 3.3 支线Jill救援"},
+    {"t": "8:00-10:00", "event": "explore_sewers", "spawn": "licker", "evidence": "GDD 8.1 下水道舔食者"},
+    {"t": "10:00-13:00", "event": "tyrant_boss", "boss": "T-002", "evidence": "GDD 8.1 暴君3分钟防守战"}
+  ]
+}
