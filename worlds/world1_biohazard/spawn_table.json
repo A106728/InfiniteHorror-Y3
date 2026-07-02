@@ -1,0 +1,29 @@
+{
+  "world": "W1_BIOHAZARD_RACCOON_CITY",
+  "spawns": {
+    "zombie_wave_0": {
+      "type": "unit",
+      "units": [
+        {"id": "zombie_basic", "count": 12, "evidence": "GDD W1 警察局教学丧尸12只"}
+      ]
+    },
+    "escort_threat": {
+      "type": "unit",
+      "units": [
+        {"id": "zombie_basic", "count": 20, "evidence": "GDD 主干道丧尸推进"}
+      ]
+    },
+    "sewer_licker": {
+      "type": "unit",
+      "units": [
+        {"id": "licker", "count": 2, "evidence": "GDD 下水道舔食者×2"}
+      ]
+    },
+    "boss_tyrant": {
+      "type": "boss",
+      "units": [
+        {"id": "T-002_TYRANT", "hp": 2000, "phase": 2, "evidence": "GDD 暴君2000HP两阶段防守3分钟"}
+      ]
+    }
+  }
+}
