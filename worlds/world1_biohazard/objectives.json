@@ -1,0 +1,14 @@
+{
+  "world": "W1_BIOHAZARD_RACCOON_CITY",
+  "main_objective": {
+    "id": "escort_charles",
+    "text": "护送Charles博士到撤离点",
+    "fail_condition": "Charles死亡",
+    "evidence": "GDD W1 主线护送Charles"
+  },
+  "sub_objectives": [
+    {"id": "branch_path", "text": "二选一路线到钟楼", "evidence": "GDD 岔路系统"},
+    {"id": "rescue_jill", "text": "救援Jill（可选）", "evidence": "GDD 支线Jill"},
+    {"id": "tyrant_hold", "text": "坚守暴君3分钟", "evidence": "GDD Boss防守机制"}
+  ]
+}
